@@ -54,3 +54,13 @@ let AtleticoMadrid = {
 //firebase.firestore().collection("teams").add(BrazilNationalTeam)
 //firebase.firestore().collection("teams").add(ArgentinaNationalTeam)
 //firebase.firestore().collection("teams").add(AtleticoMadrid)
+
+console.log("1. All Teams In Spain:")
+db.collection('teams')
+.where("country","==","Spain")
+.get().then((response => {
+    let docs = response.docs;
+    docs.forEach((doc)=>{
+        console.log(doc.data().team_name)
+    })
+}))
