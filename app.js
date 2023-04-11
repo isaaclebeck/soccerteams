@@ -48,9 +48,9 @@ let AtleticoMadrid = {
     fans_in_mil:400
 }
 //firebase.firestore().collection("teams").add(RealMadrid)
-firebase.firestore().collection("teams").add(Barcelona)
-firebase.firestore().collection("teams").add(ManchesterUnited)
-firebase.firestore().collection("teams").add(ManchesterCity)
-firebase.firestore().collection("teams").add(BrazilNationalTeam)
-firebase.firestore().collection("teams").add(ArgentinaNationalTeam)
-firebase.firestore().collection("teams").add(AtleticoMadrid)
+//firebase.firestore().collection("teams").add(Barcelona)
+//firebase.firestore().collection("teams").add(ManchesterUnited)
+//firebase.firestore().collection("teams").add(ManchesterCity)
+//firebase.firestore().collection("teams").add(BrazilNationalTeam)
+//firebase.firestore().collection("teams").add(ArgentinaNationalTeam)
+//firebase.firestore().collection("teams").add(AtleticoMadrid)
